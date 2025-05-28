@@ -1,0 +1,13 @@
+[
+  { "name": "Rajasthan", "link": "Rajasthan.html" },
+  { "name": "Maharashtra", "link": "index.html" },
+  { "name": "Goa", "link": "Goa.html" },
+  { "name": "Delhi", "link": "delhi.html" },
+  { "name": "Gujarat", "link": "Gujarat.html" },
+  { "name": "Tamil Nadu", "link": "tamilnadu.html" },
+  { "name": "Karnataka", "link": "karnataka.html" },
+  { "name": "Andhra Pradesh", "link": "andhraPradesh.html" },
+  { "name": "Uttrakhand", "link": "Uttrakhand.html" },
+  { "name": "Kerala", "link": "Kerala.html" },
+  { "name": "Himachal Pradesh", "link": "Himachal Pradesh.html" }
+]

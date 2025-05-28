@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url("https://t4.ftcdn.net/jpg/05/05/51/25/360_F_505512599_D6ulJI9hV6aGTP04FPC2XDk5QHGOQtpW.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  /* Remove background color for transparency */
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgb(207, 96, 230); /* Make header text white for contrast */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #df64ca;
+}
+
+header h1 span {
+  color: #ff4081;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #eee;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  padding: 12px 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 2px solid #f1a965;
+  font-size: 16px;
+  background: rgba(230, 154, 83, 0.87);
+  color: #000;
+  box-shadow: none;
+}
+
+.search-bar input::placeholder {
+  color: #222;
+}
+
+.trending h2 {
+  text-align: center;
+  font-size: 2em;
+  color: rgb(241, 10, 152);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  margin-bottom: 20px;
+}
+
+.trending-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background: rgb(151, 172, 240); /* semi-transparent white */
+  color: #070707;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.8);
+  color: #1a237e;
+}
+
+.link-box {
+  text-align: center;
+  margin-top: 20px;
+  grid-column: span 2;
+}
+
+.link-box a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 64, 129, 0.8);
+  color: rgb(61, 63, 180);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.link-box a:hover {
+  background-color: rgba(194, 24, 91, 0.9);
+}
+
+.map-section {
+  margin-top: 40px;
+}
+
+.map-section h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  background: transparent;
+}
+
+
+  
+  
+  
+  
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bharat Explorer</title>
+  <link rel="stylesheet" href="homepage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌏 Welcome to <span>Bharat Explorer</span></h1>
+      <p>✨ Explore top destinations in India</p>
+    </header>
+
+    <div class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search a state..."
+        onkeyup="searchStates()"
+      />
+    </div>
+
+    <section class="trending">
+      <h2>🏞️ Featured States</h2>
+      <div class="trending-list" id="stateList">
+        <div class="card">📍<a href="Rajasthan.html">Rajasthan</a> </div>
+        
+        <!-- Maharashtra card with link -->
+        <div class="card">📍 <a href="index.html">Maharashtra</a></div>
+
+        <div class="card">📍 Goa</div>
+        <div class="card">📍 <a href="delhi.html">Delhi</a></div>
+        <div class="card">📍 Gujarat</div>
+        <div class="card">📍 <a href="tamilnadu.html">Tamil Nadu</a></div>
+        <div class="card">📍 <a href="karnataka.html">Karnataka</a></div>
+        <div class="card">📍 <a href="andhraPradesh.html">Andhra Pradesh</a></div>
+        <div class="card">📍 <a href="Uttrakhand.html">Uttrakhand</a></div>
+        <div class="card">📍 <a href="Kerala.html">Kerala</a></div>
+        <div class="card">📍 <a href="Himachal Pradesh.html">Himachal Pradesh</a></div>
+
+      </div>
+    </section>
+
+    <section class="map-section">
+      <h2>🗺️ Map View</h2>
+      <div id="map">Loading map...</div>
+    </section>
+  </div>
+
+  <script src="Homepage.js"></script>
+  <script async
+    src="https://developers.google.com/codelabs/maps-platform/maps-platform-3d-maps-js-markers#0">
+
+  </script>
+</body>
+</html>
+

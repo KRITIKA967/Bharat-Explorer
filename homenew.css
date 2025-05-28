@@ -91,13 +91,9 @@ nav a:hover {
 }
 
 .btn:hover {
-  background-color: #1406d9;
+  background-color: #d97706; /* Warm orange hover */
 }
 
-
-.btn:hover {
-  background-color: #d97706;
-}
 
 /* Cards Section */
 .states-container {
